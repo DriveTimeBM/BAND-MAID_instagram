@@ -32,7 +32,7 @@ This project contains an 11-year archive of **translated BAND-MAID Instagram pos
 - **Translations:** u/Some-Ad3087 
 - **Japanese Assistance:** @vblooddrunk on Discord  
 - **Band:** [BAND-MAID Official Site](https://bandmaid.tokyo/) [BAND-MAID YouTube Channel](https://www.youtube.com/c/BANDMAID)
-- **X/Twitter Accounts:** [BAND-MAID Official](https://www.instagram.com/bandmaid.jp/) 
+- **Instagram Accounts:** [BAND-MAID Official](https://www.instagram.com/bandmaid.jp/) 
 [Akane](https://www.instagram.com/akane_bandmaid/)
 [Kanami](https://www.instagram.com/kanami_bandmaid/)
 [KobatoMiku](https://www.instagram.com/kobatomiku/)
