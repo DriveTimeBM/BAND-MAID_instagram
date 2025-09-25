@@ -46,5 +46,6 @@ This project contains an 11-year archive of **translated BAND-MAID Instagram pos
 - [BAND-MAID Song Sorter (Ranker)](https://github.com/DriveTimeBM/BAND-MAID_song_sorter)
 - [BAND-MAID GIF Catalog](https://github.com/DriveTimeBM/BAND-MAID_gifs)
 - [BAND-MAID Reports](https://github.com/DriveTimeBM/BAND-MAID_reports)
+- [BAND-MAID Instagram Archive](https://github.com/DriveTimeBM/BAND-MAID_instagram)
 
 
