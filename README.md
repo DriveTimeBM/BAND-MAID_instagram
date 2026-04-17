@@ -1,59 +1,67 @@
-﻿# BAND-MAID Instagram Archive
+# BAND-MAID Instagram Archive
 
-<img src="favicon.png" alt="Logo" width="128" height="128">
+A searchable archive of translated BAND-MAID Instagram posts, hosted on GitHub Pages.
 
-This project contains an 11-year archive of **translated BAND-MAID Instagram posts** (over 5,000 entries) from all six accounts, presented in a searchable, chronological web page. 
+## Overview
+
+This archive contains approximately 5,000 Instagram posts from BAND-MAID and its five members, spanning from 2014 to present. All posts include the original Japanese text alongside an English translation.
 
 🔗 **View the archive here:**  
 [https://drivetimebm.github.io/BAND-MAID_instagram/](https://drivetimebm.github.io/BAND-MAID_instagram/)
 
 [Project Description (TBD)](https://www.reddit.com/r/BandMaid/tbd/)
 
----
-
 ## Features
 
-- Chronological browsing of posts (oldest → newest).
-- Searchable full-text index (English and Japanese).
-- Displays both Japanese original and English translation.
-- Clickable timestamps link directly to the original post on Instagram.
+- Full-text search across English translations and original Japanese text
+- Filter by member (BAND-MAID, Saiki, Miku, Kanami, Akane, MISA)
+- Date range filtering
+- Links to original Instagram posts
+- Virtual scrolling for smooth performance across the full dataset
 
----
+## Files
 
-## Technical Notes
+| File | Description |
+|---|---|
+| `index.html` | Self-contained search interface |
+| `instagram.json` | Archive data |
+| `favicon.png` | Site favicon |
 
-- Built as a static site (pure HTML/JS/CSS).
-- Search powered by [MiniSearch](https://lucaong.github.io/minisearch/).
-- Hosted via **GitHub Pages**.
-- Translator used OpenAI API (gpt-4o-mini)
+## Data Format
 
----
+```json
+[
+  {
+    "id": 1,
+    "dateJST": "2014-09-30T16:48:59",
+    "member": "Saiki",
+    "jp": "ぷるぷる〜😌💞 #saiki #bandmaid #egg #purupuru",
+    "en": "Puru puru~ 😌💞 #saiki #bandmaid #egg #purupuru",
+    "url": "https://www.instagram.com/p/tj9UXgDYwJ/"
+  }
+]
+```
 
-## Credits
+| Field | Description |
+|---|---|
+| `id` | Sequential record ID |
+| `dateJST` | Post datetime in Japan Standard Time (ISO 8601) |
+| `member` | Posting member: `BAND-MAID`, `Saiki`, `Miku`, `Kanami`, `Akane`, or `MISA` |
+| `jp` | Original Japanese caption |
+| `en` | English translation |
+| `url` | Link to the original Instagram post |
 
-- **Data Retreival:** u/hbydzy 
-- **Translations:** u/Some-Ad3087 
-- **Japanese Assistance:** @vblooddrunk on Discord  
-- **Band:** [BAND-MAID Official Site](https://bandmaid.tokyo/) [BAND-MAID YouTube Channel](https://www.youtube.com/c/BANDMAID)
-- **Instagram Accounts:** [BAND-MAID Official](https://www.instagram.com/bandmaid.jp/) 
-[Akane](https://www.instagram.com/akane_bandmaid/)
-[Kanami](https://www.instagram.com/kanami_bandmaid/)
-[KobatoMiku](https://www.instagram.com/kobatomiku/)
-[MISA](https://www.instagram.com/misa_bandmaid/)
-[Saiki](https://www.instagram.com/saiki_bandmaid/)
+## Members
 
----
+| Member | Color |
+|---|---|
+| BAND-MAID | White |
+| Saiki | Blue |
+| Miku | Pink |
+| Kanami | Green |
+| Akane | Gold |
+| MISA | Purple |
 
-## All BAND-MAID Projects
+## Related
 
-- [BAND-MAID X/Twitter Archive](https://github.com/DriveTimeBM/BAND-MAID_tweets)
-- [BAND-MAID Song Sorter (Ranker)](https://github.com/DriveTimeBM/BAND-MAID_song_sorter)
-- [BAND-MAID GIF Catalog](https://github.com/DriveTimeBM/BAND-MAID_gifs)
-- [BAND-MAID Reports](https://github.com/DriveTimeBM/BAND-MAID_reports)
-- [BAND-MAID Instagram Archive](https://github.com/DriveTimeBM/BAND-MAID_instagram)
-- [BAND-MAID GPT](https://github.com/DriveTimeBM/BAND-MAID_gpt)
-- [BAND-MAID Prime Metadata](https://github.com/DriveTimeBM/BAND-MAID_prime)
-- [BAND-MAID Creations](https://github.com/DriveTimeBM/BAND-MAID_creations)
-- [BAND-MAID Setlists (Okyuji)](https://github.com/DriveTimeBM/BAND-MAID_okyuji)
-- [BAND-MAID Translations](https://github.com/DriveTimeBM/BAND-MAID_translations)
-- [BAND-MAID Songs](https://github.com/DriveTimeBM/BAND-MAID_songs)
+- [BAND-MAID Tweet Archive](https://github.com/drivetimebm/BAND-MAID_tweets)
